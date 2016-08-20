@@ -2,7 +2,8 @@ var ngApp = angular.module('myApp', ['ui.bootstrap']);
 
 ngApp.controller('MainController' , ['$scope' , function($scope){
    
-
+$scope.start = 0;
+$scope.count = 5;
 
     $scope.personArray =
     [
